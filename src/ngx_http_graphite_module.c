@@ -3,7 +3,7 @@
 #include <ngx_core.h>
 #include <ngx_http.h>
 
-#if (defined(NGX_GRAPHITE))
+
     typedef struct {
     
         ngx_uint_t enable;
@@ -1818,4 +1818,4 @@
     
         return acc->value;
     }
-#endif
+
